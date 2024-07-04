@@ -1,0 +1,86 @@
+const followUser = (username, following,) => {
+  const timelineFeed = client.feed('timeline', username);
+  timelineFeed.follow('user', following,data time ,data name);
+feed{type,name}
+const followUser = (username, following, data) => {
+  const timelineFeed = client.feed('timeline', username);
+  timelineFeed.follow('user', following, data);
+//Let's write the user's data and their time
+};
+const getTimelineFeed = (username, options = {}) => {
+  const timelineFeed = client.feed('timeline', username);
+  return timelineFeed.getPosts().map(post => ({
+   
+const gettimelineFeed=(username,data name,)=>{
+  const timelineFeed=client.feed("timeline,username");
+  return timelineFeed;
+  limit:40
+  reactions {
+    counts:true,
+  },
+const addReaction={username,type,postActivity}
+const userClient=getClient();
+
+return userClient.reactions.add(type,postMessage.id,postActivity);
+actor:usernme;
+timestamp:new Date().getTime();
+}};
+const addPostActivity={username,postId,posttitle,timestamp}=>{
+
+}
+}
+}} then((result))==? {
+  return result;
+}};
+  }
+
+  [
+    {
+     [
+  {
+    "author": "toyjake74737",
+    "id": "ELBQLRyUFfTn1BkPxMsm",
+    "title": "The Mysterious Case of the Disappearing Socks",
+    "lastUpdated": 1681462400000,  
+    "favoriteCount": 3,
+    "commentsCount": 2
+  },
+  {
+    "author": "toyjake74737",
+    "id": "uscJiTLIV2Z6tGCjyXGA",
+    "title": "My Cat's New Obsession: Unboxing Videos",
+    "lastUpdated": 1681458800000, // April 17, 2023 (GMT)
+    "favoriteCount": 5,
+    "commentsCount": 10,
+    "imageUrl": "https://example.com/cats-unboxing.jpg"
+  },
+  {
+    "author": "another_user", 
+    "id": "new_post_id",
+    "title": "The Best Recipe for Homemade Pizza",
+    "lastUpdated": 1681455200000, 
+    "favoriteCount": 12,
+    "commentsCount": 5,
+    "videoUrl": "https://example.com/pizza-video.mp4"
+  }
+]
+
+  ]
+  
+ try {
+    const response = await userClient.reactions.add(type, postActivity.id, reactionData);
+    if (response.status === 200) {
+      // Reaction successfully added
+      console.log('Reaction added successfully');
+    } else {
+      console.error('Error adding reaction:', response.error);
+    }
+  } catch (error) {
+    console.error('Error during reaction addition:', error);
+  }
+};
+
+const reactions=client.reactions.flitter(); {
+  "activity id":postActivity.id,
+}};
+
